@@ -26,5 +26,5 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           docker build -t final-test-api .
-          docker tag final-test-api:latest 794038241915.dkr.ecr.us-east-1.amazonaws.com/final-test-api:latest
+          docker tag final-test-api:latest 794038241915.dkr.ecr.us-east-1.amazonaws.com/final-test:latest
           docker push 794038241915.dkr.ecr.us-east-1.amazonaws.com/final-test:latest
